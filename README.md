@@ -34,24 +34,21 @@
 
 ## Previews
 
-The images are rendered from the palette's terminal colors, the same values
-that this theme sets.
-
-![Terminal windows in kitty with Kanagawa Lotus, Dragon and Wave](assets/showcase.png)
+![kitty windows with Kanagawa Lotus, Dragon and Wave](assets/showcase.png)
 
 <details>
 <summary>🌊 Wave</summary>
-<img src="assets/screenshots/wave.png" alt="Screenshot of a kitty terminal using Kanagawa Wave">
+<img src="assets/screenshots/wave.png" alt="Screenshot of kitty using Kanagawa Wave">
 </details>
 
 <details>
 <summary>🐉 Dragon</summary>
-<img src="assets/screenshots/dragon.png" alt="Screenshot of a kitty terminal using Kanagawa Dragon">
+<img src="assets/screenshots/dragon.png" alt="Screenshot of kitty using Kanagawa Dragon">
 </details>
 
 <details>
 <summary>🪷 Lotus</summary>
-<img src="assets/screenshots/lotus.png" alt="Screenshot of a kitty terminal using Kanagawa Lotus">
+<img src="assets/screenshots/lotus.png" alt="Screenshot of kitty using Kanagawa Lotus">
 </details>
 
 ## Requirements
@@ -60,7 +57,7 @@ that this theme sets.
 
 ## Installation
 
-Download the three themes into kitty's theme folder:
+Download the three themes into ~/.config/kitty/themes:
 
 ```sh
 mkdir -p ~/.config/kitty/themes
@@ -104,8 +101,9 @@ picked by role, so each variant uses its own value for the same role.
 ## Credits
 
 This port replaces the kitty theme in the `extras` folder of the
-[Neovim plugin](https://github.com/kanagawa-community/neovim), first written for
-[kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) by Tommaso Laurenzi.
+[Neovim plugin](https://github.com/kanagawa-community/neovim). Tommaso Laurenzi wrote that theme for kanagawa.nvim. The
+colors come from [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) by
+Tommaso Laurenzi.
 
 ## Issues and contributions
 
